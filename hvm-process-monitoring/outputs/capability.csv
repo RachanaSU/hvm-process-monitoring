@@ -1,9 +1,0 @@
-tool_id,period,n_wafers,mean_er,cp,cpk,ppk,yield_pct
-ETCH01,baseline (days 0-15),598,250.08,1.63,1.62,1.47,96.82
-ETCH01,last 10 days,400,250.04,1.74,1.74,1.55,97.5
-ETCH02,baseline (days 0-15),598,249.96,1.79,1.78,1.57,97.49
-ETCH02,last 10 days,397,253.2,1.67,1.31,1.18,100.0
-ETCH03,baseline (days 0-15),598,250.08,1.72,1.71,1.53,98.66
-ETCH03,last 10 days,398,244.6,1.62,1.03,0.94,59.8
-ETCH04,baseline (days 0-15),593,250.0,1.56,1.56,1.41,95.95
-ETCH04,last 10 days,339,249.95,1.64,1.63,1.46,97.35

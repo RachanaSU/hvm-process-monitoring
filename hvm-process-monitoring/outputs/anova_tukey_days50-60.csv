@@ -1,7 +1,0 @@
-pair,mean_diff,p_value,significant
-ETCH01 vs ETCH02,-3.15,0.0,True
-ETCH01 vs ETCH03,5.44,0.0,True
-ETCH01 vs ETCH04,0.09,0.984167670611618,False
-ETCH02 vs ETCH03,8.6,0.0,True
-ETCH02 vs ETCH04,3.24,0.0,True
-ETCH03 vs ETCH04,-5.35,0.0,True
