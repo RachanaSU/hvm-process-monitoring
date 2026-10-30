@@ -1,0 +1,310 @@
+{
+  "data": {
+    "rows_wafer_runs": 47843,
+    "rows_metrology": 9569,
+    "rows_pump_telemetry": 5742,
+    "rows_total": 63154,
+    "pump_trips_day": {
+      "ETCH04": 51.04
+    }
+  },
+  "clean": {
+    "metrology_wafers": 9487,
+    "lot_subgroups": 1855,
+    "pump_readings": 5725,
+    "rows_fixed": 538
+  },
+  "spc": {
+    "detection": {
+      "ETCH02": {
+        "event_day": 32,
+        "first_signal_day": 32.5,
+        "detection_lag_days": 0.5,
+        "first_rules": "R3",
+        "signals_before_event": 0
+      },
+      "ETCH03": {
+        "event_day": 20,
+        "first_signal_day": 24.5,
+        "detection_lag_days": 4.5,
+        "first_rules": "R2",
+        "signals_before_event": 1
+      }
+    },
+    "false_alarms_ETCH01": {
+      "three_way_chart": 3,
+      "textbook_A2_limits": 18,
+      "lots_monitored": 355
+    },
+    "capability": [
+      {
+        "tool_id": "ETCH01",
+        "period": "baseline (days 0-15)",
+        "n_wafers": 598,
+        "mean_er": 250.08,
+        "cp": 1.63,
+        "cpk": 1.62,
+        "ppk": 1.47,
+        "yield_pct": 96.82
+      },
+      {
+        "tool_id": "ETCH01",
+        "period": "last 10 days",
+        "n_wafers": 400,
+        "mean_er": 250.04,
+        "cp": 1.74,
+        "cpk": 1.74,
+        "ppk": 1.55,
+        "yield_pct": 97.5
+      },
+      {
+        "tool_id": "ETCH02",
+        "period": "baseline (days 0-15)",
+        "n_wafers": 598,
+        "mean_er": 249.96,
+        "cp": 1.79,
+        "cpk": 1.78,
+        "ppk": 1.57,
+        "yield_pct": 97.49
+      },
+      {
+        "tool_id": "ETCH02",
+        "period": "last 10 days",
+        "n_wafers": 397,
+        "mean_er": 253.2,
+        "cp": 1.67,
+        "cpk": 1.31,
+        "ppk": 1.18,
+        "yield_pct": 100.0
+      },
+      {
+        "tool_id": "ETCH03",
+        "period": "baseline (days 0-15)",
+        "n_wafers": 598,
+        "mean_er": 250.08,
+        "cp": 1.72,
+        "cpk": 1.71,
+        "ppk": 1.53,
+        "yield_pct": 98.66
+      },
+      {
+        "tool_id": "ETCH03",
+        "period": "last 10 days",
+        "n_wafers": 398,
+        "mean_er": 244.6,
+        "cp": 1.62,
+        "cpk": 1.03,
+        "ppk": 0.94,
+        "yield_pct": 59.8
+      },
+      {
+        "tool_id": "ETCH04",
+        "period": "baseline (days 0-15)",
+        "n_wafers": 593,
+        "mean_er": 250.0,
+        "cp": 1.56,
+        "cpk": 1.56,
+        "ppk": 1.41,
+        "yield_pct": 95.95
+      },
+      {
+        "tool_id": "ETCH04",
+        "period": "last 10 days",
+        "n_wafers": 339,
+        "mean_er": 249.95,
+        "cp": 1.64,
+        "cpk": 1.63,
+        "ppk": 1.46,
+        "yield_pct": 97.35
+      }
+    ],
+    "anova_baseline": {
+      "window": "days 0-15",
+      "F": 0.18,
+      "p_value": 0.9108,
+      "means": {
+        "ETCH01": 250.08,
+        "ETCH02": 249.96,
+        "ETCH03": 250.08,
+        "ETCH04": 250.0
+      }
+    },
+    "anova_days50_60": {
+      "window": "days 50-60",
+      "F": 453.09,
+      "p_value": 0.0,
+      "means": {
+        "ETCH01": 250.04,
+        "ETCH02": 253.2,
+        "ETCH03": 244.6,
+        "ETCH04": 249.95
+      }
+    }
+  },
+  "reliability": [
+    {
+      "tool_id": "ETCH01",
+      "k": 0.0016,
+      "Dc": 499.671,
+      "V0": 1.7076,
+      "rmse": 0.1191,
+      "trip_level_used": 6.8618,
+      "ode_check_max_gap": 0.0,
+      "current_vib": 1.7521,
+      "predicted_trip_day": null,
+      "actual_trip_day": null,
+      "predicted_alert_day": null,
+      "trip_p05": null,
+      "trip_p50": null,
+      "trip_p95": null,
+      "recommended_pm_day": null,
+      "linear_trend_trip_day": null
+    },
+    {
+      "tool_id": "ETCH02",
+      "k": 0.0016,
+      "Dc": 0.05,
+      "V0": 1.9147,
+      "rmse": 0.1158,
+      "trip_level_used": 6.8685,
+      "ode_check_max_gap": 0.0,
+      "current_vib": 1.9832,
+      "predicted_trip_day": null,
+      "actual_trip_day": null,
+      "predicted_alert_day": null,
+      "trip_p05": null,
+      "trip_p50": null,
+      "trip_p95": null,
+      "recommended_pm_day": null,
+      "linear_trend_trip_day": null
+    },
+    {
+      "tool_id": "ETCH03",
+      "k": 0.0026,
+      "Dc": 499.9938,
+      "V0": 1.5955,
+      "rmse": 0.1243,
+      "trip_level_used": 6.8514,
+      "ode_check_max_gap": 0.0,
+      "current_vib": 1.6552,
+      "predicted_trip_day": null,
+      "actual_trip_day": null,
+      "predicted_alert_day": null,
+      "trip_p05": null,
+      "trip_p50": null,
+      "trip_p95": null,
+      "recommended_pm_day": null,
+      "linear_trend_trip_day": null
+    },
+    {
+      "tool_id": "ETCH04",
+      "k": 0.0526,
+      "Dc": 1.61,
+      "V0": 1.7848,
+      "rmse": 0.119,
+      "trip_level_used": 6.862,
+      "ode_check_max_gap": 0.0,
+      "current_vib": 4.9626,
+      "predicted_trip_day": 51.2917,
+      "actual_trip_day": 51.0417,
+      "predicted_alert_day": 35.5833,
+      "trip_p05": 50.9979,
+      "trip_p50": 51.3333,
+      "trip_p95": 51.7083,
+      "recommended_pm_day": 49.0,
+      "linear_trend_trip_day": 55.529
+    }
+  ],
+  "doe": {
+    "doe_recipe": {
+      "rf_power_W": 1455.0,
+      "pressure_mTorr": 32.0,
+      "chuck_temp_C": 55.0
+    },
+    "new_recipe": {
+      "rf_power_W": 1427.9,
+      "pressure_mTorr": 32.0,
+      "chuck_temp_C": 55.0
+    },
+    "pred_er": 250.8172,
+    "pred_nu": 2.6139,
+    "curvature": {
+      "etch_rate": [
+        0.5672,
+        0.7961
+      ],
+      "nonuniformity": [
+        0.0518,
+        0.6595
+      ]
+    },
+    "before": {
+      "er_mean": 249.9756,
+      "nu_mean": 3.3937,
+      "ppk_er": 1.55,
+      "ppk_nu": 0.6363,
+      "yield_pct": 97.0,
+      "n_wafers": 200
+    },
+    "first_confirmation": {
+      "er_mean": 252.3594,
+      "nu_mean": 2.7238,
+      "ppk_er": 1.222,
+      "ppk_nu": 1.5204,
+      "yield_pct": 100.0,
+      "n_wafers": 200
+    },
+    "after": {
+      "er_mean": 249.4931,
+      "nu_mean": 2.8185,
+      "ppk_er": 1.5144,
+      "ppk_nu": 1.2981,
+      "yield_pct": 100.0,
+      "n_wafers": 200
+    }
+  },
+  "fmea": [
+    {
+      "id": "F1",
+      "failure_mode": "Pump trips on high vibration during processing",
+      "RPN": 270,
+      "RPN_after": 36
+    },
+    {
+      "id": "F5",
+      "failure_mode": "Sensor dropouts and duplicate records",
+      "RPN": 175,
+      "RPN_after": 50
+    },
+    {
+      "id": "F3",
+      "failure_mode": "Chuck temperature drifts up",
+      "RPN": 168,
+      "RPN_after": 84
+    },
+    {
+      "id": "F2",
+      "failure_mode": "Chamber pressure offset after PM",
+      "RPN": 140,
+      "RPN_after": 28
+    },
+    {
+      "id": "F4",
+      "failure_mode": "Within-wafer non-uniformity above 4% spec",
+      "RPN": 108,
+      "RPN_after": 36
+    },
+    {
+      "id": "F7",
+      "failure_mode": "Process gas flow drifts",
+      "RPN": 90,
+      "RPN_after": 54
+    },
+    {
+      "id": "F6",
+      "failure_mode": "Delivered RF power drifts",
+      "RPN": 84,
+      "RPN_after": 63
+    }
+  ]
+}
