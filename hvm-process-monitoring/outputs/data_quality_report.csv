@@ -1,0 +1,18 @@
+table,rule,rows_affected
+wafer_runs,duplicate wafer records removed,143
+wafer_runs,rf_power_W: out-of-range / sentinel values set to missing,57
+wafer_runs,pressure_mTorr: out-of-range / sentinel values set to missing,42
+wafer_runs,chuck_temp_C: out-of-range / sentinel values set to missing,46
+wafer_runs,gas_flow_sccm: out-of-range / sentinel values set to missing,43
+metrology,duplicate wafer records removed,29
+metrology,rf_power_W: out-of-range / sentinel values set to missing,14
+metrology,pressure_mTorr: out-of-range / sentinel values set to missing,9
+metrology,chuck_temp_C: out-of-range / sentinel values set to missing,8
+metrology,gas_flow_sccm: out-of-range / sentinel values set to missing,10
+metrology,etch_rate_nm_min: out-of-range / sentinel values set to missing,7
+metrology,nonuniformity_pct: out-of-range / sentinel values set to missing,15
+metrology,wafers dropped: no valid etch-rate reading,53
+pump_telemetry,duplicate rows removed,17
+pump_telemetry,pump_vibration_mm_s: out-of-range / sentinel values set to missing,5
+pump_telemetry,pump_current_A: out-of-range / sentinel values set to missing,4
+pump_telemetry,vibration gaps filled by interpolation,36
